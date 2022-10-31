@@ -476,6 +476,14 @@
     semver "^7.3.4"
     webpack-sources "^2.0.1"
 
+"@ckeditor/ckeditor5-editor-balloon@^35.2.1":
+  version "35.2.1"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-editor-balloon/-/ckeditor5-editor-balloon-35.2.1.tgz#7429a0d539cdc38302af2a0434beffee6330d6e2"
+  integrity sha512-kKrVqXtoNMmRlxVDMYY8Fse0dRY4qucimdZPQf9l5B7TTtt+n6M/jpA7KZ7ScSDK6s0NjbrTuEy+FohZYXjHDQ==
+  dependencies:
+    ckeditor5 "^35.2.1"
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-editor-classic@^35.2.1":
   version "35.2.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-editor-classic/-/ckeditor5-editor-classic-35.2.1.tgz#efa9dd3dcb87eb5bfe720f1c65003cb785d7c3c7"

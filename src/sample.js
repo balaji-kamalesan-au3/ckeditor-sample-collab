@@ -6,7 +6,7 @@
 import React, { Component } from 'react';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 
-import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
+import BalloonEditor from '@ckeditor/ckeditor5-editor-balloon/src/ballooneditor';
 
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
@@ -195,7 +195,7 @@ export default class Sample extends Component {
 							this.refreshDisplayMode( editor );
 						} }
 						onChange={ ( event, editor ) => console.log( { event, editor } ) }
-						editor={ ClassicEditor }
+						editor={ BalloonEditor }
 						config={ {
 							plugins: [
 								Alignment,
